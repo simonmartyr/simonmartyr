@@ -2,8 +2,11 @@
 const Mustache = require("mustache");
 const fs = require("fs");
 const MUSTACHE_MAIN_DIR = "./main.mustache";
+const fetch = require("node-fetch");
+const randomEmoji = require("random-emoji");
 
-const amsterdamHours = new Date().getUTCHours() + 2;
+const creationDate = new Date("5 Oct, 2020 22:00");
+
 /**
  * DATA is the object that contains all
  * the data to be provided to Mustache
@@ -11,16 +14,8 @@ const amsterdamHours = new Date().getUTCHours() + 2;
  */
 let DATA = {
   name: "Simon",
-  date: new Date().toLocaleDateString("en-GB", {
-    weekday: "long",
-    month: "long",
-    day: "numeric",
-    hour: "numeric",
-    minute: "numeric",
-    timeZoneName: "short",
-    timeZone: "Europe/Amsterdam",
-  }),
   welcome: welcomeText(),
+  emoji: randomEmoji.random()[0].character,
 };
 /**
  * A - We open 'main.mustache'
@@ -28,6 +23,7 @@ let DATA = {
  * C - We create a README.md file with the generated output
  */
 function welcomeText() {
+  let amsterdamHours = new Date().getUTCHours() + 2;
   if (amsterdamHours < 12) {
     return "Good morning 🌅";
   } else if (amsterdamHours < 18) {
@@ -37,11 +33,40 @@ function welcomeText() {
   }
 }
 
-function generateReadMe() {
+function numberOfCaptures() {
+  var difference = Math.abs(creationDate.getTime() - new Date().getTime());
+  DATA.captures = Math.round(difference / 1000 / 3600 / 3);
+}
+
+async function generateReadMe() {
   fs.readFile(MUSTACHE_MAIN_DIR, (err, data) => {
     if (err) throw err;
     const output = Mustache.render(data.toString(), DATA);
     fs.writeFileSync("README.md", output);
   });
 }
-generateReadMe();
+
+async function captureAPokemon() {
+  var pokemonToGet = Math.floor(Math.random() * 807);
+  var isShiny = Math.floor(Math.random() * 8192) == 8192;
+
+  await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonToGet}`)
+    .then((r) => r.json())
+    .then((r) => {
+      (DATA.pokemonImage = isShiny
+        ? r.sprites.front_shiny
+        : r.sprites.front_default),
+        (DATA.pokemonName = r.name),
+        (DATA.isShiny = isShiny ? "Shiny" : "Non-Shiny");
+    });
+}
+
+async function action() {
+  numberOfCaptures();
+
+  await captureAPokemon();
+
+  await generateReadMe();
+}
+
+action();
