@@ -25,11 +25,11 @@ let DATA = {
 function welcomeText() {
   let amsterdamHours = new Date().getUTCHours() + 2;
   if (amsterdamHours < 12) {
-    return "Good morning 🌅";
+    return encodeURI("Good morning 🌅");
   } else if (amsterdamHours < 18) {
-    return "Good afternoon ☀️";
+    return encodeURI("Good afternoon ☀️");
   } else {
-    return "Good evening 🌙";
+    return encodeURI("Good evening 🌙");
   }
 }
 
