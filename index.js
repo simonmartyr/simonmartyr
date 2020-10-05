@@ -25,17 +25,12 @@ let DATA = {
 function welcomeText() {
   let amsterdamHours = new Date().getUTCHours() + 2;
   if (amsterdamHours < 12) {
-    return encodeURI("Good morning 🌅");
+    return "Good morning 🌅";
   } else if (amsterdamHours < 18) {
-    return encodeURI("Good afternoon ☀️");
+    return "Good afternoon ☀️";
   } else {
-    return encodeURI("Good evening 🌙");
+    return "Good evening 🌙";
   }
-}
-
-function numberOfCaptures() {
-  var difference = Math.abs(creationDate.getTime() - new Date().getTime());
-  DATA.captures = Math.round(difference / 1000 / 3600 / 3);
 }
 
 async function generateReadMe() {
@@ -62,8 +57,6 @@ async function captureAPokemon() {
 }
 
 async function action() {
-  numberOfCaptures();
-
   await captureAPokemon();
 
   await generateReadMe();
