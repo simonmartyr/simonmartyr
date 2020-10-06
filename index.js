@@ -43,7 +43,7 @@ async function generateReadMe() {
 
 async function captureAPokemon() {
   var pokemonToGet = Math.floor(Math.random() * 807);
-  var isShiny = Math.floor(Math.random() * 8192) == 8192;
+  var isShiny = Math.floor(Math.random() * 8193) == 8192;
 
   await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonToGet}`)
     .then((r) => r.json())
