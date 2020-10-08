@@ -59,7 +59,7 @@ async function captureAPokemon() {
     ? previouslyCaught.qt++
     : pokemon.caught.push({ name, qt: 1 });
   pokemon.caught.sort((a, b) => b.qt - a.qt);
-  top10 = pokemon.caught.slice(0, 9);
+  top10 = pokemon.caught.slice(0, 10);
   top10.forEach((element) => {
     DATA.caughtList += `${element.name}|${element.qt}\n`;
   });
