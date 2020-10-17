@@ -13,9 +13,9 @@ Working for [@Finaps](https://www.finaps.nl/)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=simonmartyr&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
-## Last Caught Pokemon: Non-Shiny - kabuto
+## Last Caught Pokemon: Non-Shiny - nidorina
  
-![pokemon](https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;PokeAPI&#x2F;sprites&#x2F;master&#x2F;sprites&#x2F;pokemon&#x2F;140.png) 
+![pokemon](https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;PokeAPI&#x2F;sprites&#x2F;master&#x2F;sprites&#x2F;pokemon&#x2F;30.png) 
 
 ### Most Caught (10)
 
