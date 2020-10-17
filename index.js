@@ -18,6 +18,7 @@ let DATA = {
   welcome: welcomeText(),
   emoji: randomEmoji.random()[0].character,
   caughtList: "",
+  totalCaught: 0,
 };
 
 function welcomeText() {
@@ -59,6 +60,7 @@ async function captureAPokemon() {
     ? previouslyCaught.qt++
     : pokemon.caught.push({ name, qt: 1 });
   pokemon.caught.sort((a, b) => b.qt - a.qt);
+  DATA.totalCaught = pokemon.caught.length;
   top10 = pokemon.caught.slice(0, 10);
   top10.forEach((element) => {
     DATA.caughtList += `${element.name}|${element.qt}\n`;
