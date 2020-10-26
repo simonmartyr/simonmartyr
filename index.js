@@ -4,6 +4,7 @@ const fs = require("fs");
 const MUSTACHE_MAIN_DIR = "./main.mustache";
 const fetch = require("node-fetch");
 const randomEmoji = require("random-emoji");
+const stravaData = require("./stravaData");
 
 const creationDate = new Date("5 Oct, 2020 22:00");
 let pokemon;
@@ -83,7 +84,7 @@ async function action() {
   readPokemon();
   await captureAPokemon();
   writePokemon();
-
+  DATA.runningDistance = await stravaData.refreshStrava();
   await generateReadMe();
 }
 
