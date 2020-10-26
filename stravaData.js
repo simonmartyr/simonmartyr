@@ -38,4 +38,4 @@ async function refreshStrava() {
   return stravaData.totalDistance;
 }
 
-module.exports.getLastRun = refreshStrava;
+module.exports.refreshStrava = refreshStrava;
