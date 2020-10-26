@@ -1,5 +1,6 @@
 const stravaapi = require("strava-v3");
 const fs = require("fs");
+const file = "strava.json";
 
 stravaapi.config({
   client_id: process.env.STRAVA_CLIENT_ID,
@@ -20,10 +21,13 @@ async function getLastRun() {
 }
 
 function readStrava() {
-  fs.readFile("strava.json", (err, data) => {
-    if (err) throw err;
-    return JSON.parse(data);
-  });
+  let rawJson = fs.readFileSync(file);
+  return JSON.parse(rawJson);
+}
+
+function writeStrava(toWrite) {
+  let data = JSON.stringify(toWrite);
+  fs.writeFileSync(file, data);
 }
 
 async function refreshStrava() {
@@ -34,8 +38,7 @@ async function refreshStrava() {
     stravaData.runs.push({ id: latest.id, distance: latest.distance });
     stravaData.totalDistance += latest.distance;
   }
-  let data = JSON.stringify(stravaData);
-  fs.writeFileSync("strava.json", data);
+  writeStrava(stravaData);
   return stravaData.totalDistance;
 }
 
