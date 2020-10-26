@@ -1,4 +1,5 @@
 const stravaapi = require("strava-v3");
+const fs = require("fs");
 
 stravaapi.config({
   client_id: process.env.STRAVA_CLIENT_ID,
