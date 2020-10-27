@@ -5,7 +5,7 @@ I'm Simon Martyr 🇬🇧, an Amsterdam 🇳🇱 based developer.
 Working for [@Finaps](https://www.finaps.nl/) 
 
 
-## Social Stuff 💌
+## Social Stuff 🔦
 
 [![Twitter Badge](https://img.shields.io/badge/-@vintage_si-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/vintage_si)](https://twitter.com/vintage_si)
 
@@ -13,11 +13,11 @@ Working for [@Finaps](https://www.finaps.nl/)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=simonmartyr&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
-## Last Caught Pokemon: Non-Shiny - snover
+## Last Caught Pokemon: Non-Shiny - ducklett
  
-![pokemon](https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;PokeAPI&#x2F;sprites&#x2F;master&#x2F;sprites&#x2F;pokemon&#x2F;459.png) 
+![pokemon](https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;PokeAPI&#x2F;sprites&#x2F;master&#x2F;sprites&#x2F;pokemon&#x2F;580.png) 
 
-Total Caught: 226
+Total Caught: 227
 
 ### Most Caught (10)
 
