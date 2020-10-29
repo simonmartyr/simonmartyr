@@ -1,4 +1,5 @@
 const fs = require("fs");
+const fetch = require("node-fetch");
 const file = "pokedex.json";
 const apiEndpoint = "https://pokeapi.co/api/v2/pokemon/";
 
