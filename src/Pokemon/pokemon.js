@@ -3,7 +3,7 @@ const file = "./pokedex.json";
 const apiEndpoint = "https://pokeapi.co/api/v2/pokemon/";
 
 function readPokemon() {
-  let rawJson = fs.readFile(file);
+  let rawJson = fs.readFileSync(file);
   return JSON.parse(rawJson);
 }
 
