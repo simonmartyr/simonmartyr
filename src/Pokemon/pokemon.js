@@ -47,4 +47,4 @@ async function refreshPokemon() {
   return result;
 }
 
-module.exports = refreshPokemon();
+module.exports = refreshPokemon;
