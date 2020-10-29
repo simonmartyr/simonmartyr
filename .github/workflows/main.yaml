@@ -31,7 +31,7 @@ jobs:
           STRAVA_REFRESHTOKEN: ${{ secrets.STRAVA_REFRESHTOKEN }}
           STRAVA_SECRET: ${{ secrets.STRAVA_SECRET }}
           DUOLINGO_ID: ${{secrets.DUOLINGO_ID}}
-        run: node index.js
+        run: node src/index.js
       - name: Commit and Push new README.md to the repository
         uses: mikeal/publish-to-github-action@master
         env:
