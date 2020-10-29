@@ -4,7 +4,7 @@
   "description": "[![Twitter Badge](https://img.shields.io/badge/-@vintage_si-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/vintage_si)](https://twitter.com/vintage_si)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -17,9 +17,40 @@
   },
   "homepage": "https://github.com/simonmartyr/simonmartyr#readme",
   "dependencies": {
+    "duolingo-api": "^1.0.2",
     "mustache": "^4.0.1",
     "node-fetch": "^2.6.1",
     "random-emoji": "^1.0.2",
     "strava-v3": "^2.0.9"
+  },
+  "devDependencies": {
+    "jest": "^26.6.1"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/Gamification/*",
+      "src/Pokemon/*"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 75,
+        "functions": 75,
+        "lines": 75,
+        "statements": 75
+      }
+    },
+    "coverageReporters": [
+      "text"
+    ],
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/__utils",
+      "/coreQuery.js",
+      "extraFields.js",
+      "mockData.js"
+    ],
+    "reporters": [
+      "default"
+    ]
   }
 }
