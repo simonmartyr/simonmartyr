@@ -108,3 +108,15 @@ describe("progress to next level", () => {
     expect(game.progressToNextLevel()).toBe(51);
   });
 });
+
+describe("getters", () => {
+  test("level", () => {
+    let game = new simonsQuest({ currentLevel: 4 });
+    expect(game.getCurrentLevel()).toBe(4);
+  });
+
+  test("xp", () => {
+    let game = new simonsQuest({ currentXp: 500 });
+    expect(game.getCurrentXp()).toBe(500);
+  });
+});

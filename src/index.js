@@ -47,10 +47,11 @@ async function action() {
   DATA = { ...DATA, ...pokemonData };
   DATA.runningDistance = await stravaData.refreshStrava();
   DATA.duoLingoXp = await duoLingo.getDuolingoXp();
-  var currentXp = DATA.runningDistance / 2 + DATA.duoLingoXp / 10;
-  let game = new simonsQuest({ currentXp: currentXp });
+  let experience = DATA.runningDistance / 2 + DATA.duoLingoXp / 10;
+  let game = new simonsQuest({ currentXp: experience });
   DATA.currentLevel = game.getCurrentLevel();
   DATA.progress = game.progressToNextLevel();
+  DATA.currentExperience = experience;
 
   await generateReadMe();
 }
