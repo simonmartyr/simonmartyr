@@ -47,7 +47,7 @@ async function action() {
   DATA = { ...DATA, ...pokemonData };
   DATA.runningDistance = await stravaData.refreshStrava();
   DATA.duoLingoXp = await duoLingo.getDuolingoXp();
-  var currentXp = runningDistance / 2 + duoLingoXp / 10;
+  var currentXp = DATA.runningDistance / 2 + DATA.duoLingoXp / 10;
   let game = new simonsQuest({ currentXp: currentXp });
   DATA.currentLevel = game.getCurrentLevel();
   DATA.progress = game.progressToNextLevel();
