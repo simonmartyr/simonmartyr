@@ -1,6 +1,6 @@
 const stravaapi = require("strava-v3");
 const fs = require("fs");
-const file = "strava.json";
+const file = "./strava.json";
 
 stravaapi.config({
   client_id: process.env.STRAVA_CLIENT_ID,

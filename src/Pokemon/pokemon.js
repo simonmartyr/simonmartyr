@@ -1,5 +1,5 @@
 const fs = require("fs");
-const file = "pokedex.json";
+const file = "./pokedex.json";
 const apiEndpoint = "https://pokeapi.co/api/v2/pokemon/";
 
 function readPokemon() {
