@@ -5,7 +5,7 @@ I'm Simon Martyr 🇬🇧, an Amsterdam 🇳🇱 based developer.
 Working for [@Finaps](https://www.finaps.nl/) 
 
 
-## Social Stuff 🍆
+## Social Stuff 🔭
 
 [![Twitter Badge](https://img.shields.io/badge/-@vintage_si-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/vintage_si)](https://twitter.com/vintage_si)
 
@@ -17,14 +17,18 @@ Working for [@Finaps](https://www.finaps.nl/)
 
 Current Level: **0**
 
+current Experience = **NaN**
+
 Progress to next level:
+
+
 ![Progress](https://progress-bar.dev/0/?width=250)
 
-## Last Caught Pokemon: Non-Shiny - arcanine
+## Last Caught Pokemon: Non-Shiny - rhydon
  
-![pokemon](https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;PokeAPI&#x2F;sprites&#x2F;master&#x2F;sprites&#x2F;pokemon&#x2F;59.png) 
+![pokemon](https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;PokeAPI&#x2F;sprites&#x2F;master&#x2F;sprites&#x2F;pokemon&#x2F;112.png) 
 
-Total Caught: 237
+Total Caught: 238
 
 ### Most Caught (10)
 
