@@ -42,7 +42,7 @@ async function captureAPokemon(pokemon) {
 
 async function refreshPokemon() {
   let pokemonData = readPokemon();
-  var result = captureAPokemon(pokemonData);
+  var result = await captureAPokemon(pokemonData);
   await writePokemon(pokemonData);
   return result;
 }
