@@ -20,7 +20,7 @@ async function captureAPokemon(pokemon) {
   const {
     sprites: { front_default, front_shiny },
     name,
-  } = await fetch(`${apiEndpoint}+${pokemonToGet}`).then((r) => r.json());
+  } = await fetch(`${apiEndpoint}${pokemonToGet}`).then((r) => r.json());
 
   var previouslyCaught = pokemon.caught.find((x) => x.name == name);
   previouslyCaught
@@ -48,4 +48,4 @@ async function refreshPokemon() {
   return result;
 }
 
-module.exports = refreshPokemon;
+module.exports.refreshPokemon = refreshPokemon;
