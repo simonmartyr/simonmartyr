@@ -35,8 +35,8 @@ async function captureAPokemon(pokemon) {
     pokemonImage: isShiny ? front_shiny : front_default,
     pokemonName: name,
     isShiny: isShiny ? "Shiny" : "Non-Shiny",
-    totalCaught = pokemon.caught.length,
-    caughtList = table
+    totalCaught: pokemon.caught.length,
+    caughtList: table,
   };
 }
 
