@@ -1,4 +1,4 @@
-## Good morning 🌅
+## Good afternoon ☀️
 
 I'm Simon Martyr 🇬🇧, an Amsterdam 🇳🇱 based developer. 
 
@@ -28,9 +28,9 @@ Progress to next level:
 
 Experience currently derived from Strava & Duolingo, more to come.
 
-## Random Pokemon: cosmog
+## Random Pokemon: archen
  
-![pokemon](https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;PokeAPI&#x2F;sprites&#x2F;master&#x2F;sprites&#x2F;pokemon&#x2F;789.png) 
+![pokemon](https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;PokeAPI&#x2F;sprites&#x2F;master&#x2F;sprites&#x2F;pokemon&#x2F;566.png) 
 
 Total Caught: 742
 
