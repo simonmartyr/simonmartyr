@@ -28,9 +28,9 @@ Progress to next level:
 
 Experience currently derived from Strava & Duolingo, more to come.
 
-## Random Pokemon: heatmor
+## Random Pokemon: hippopotas
  
-![pokemon](https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;PokeAPI&#x2F;sprites&#x2F;master&#x2F;sprites&#x2F;pokemon&#x2F;631.png) 
+![pokemon](https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;PokeAPI&#x2F;sprites&#x2F;master&#x2F;sprites&#x2F;pokemon&#x2F;449.png) 
 
 Total Caught: 746
 
