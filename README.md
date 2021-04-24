@@ -5,7 +5,7 @@ I'm Simon Martyr 🇬🇧, an Amsterdam 🇳🇱 based developer.
 Working for [@Finaps](https://www.finaps.nl/) 
 
 
-## Social Stuff ✏️
+## Social Stuff 🎎
 
 [![Twitter Badge](https://img.shields.io/badge/-@vintage_si-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/vintage_si)](https://twitter.com/vintage_si)
 
@@ -19,7 +19,7 @@ Exploring how I can "gamify my life" by taking various hobbies & interests and c
 
 Current Level: **47**
 
-Current Experience = **87757.1**
+Current Experience = **87759.1**
 
 Progress to next level:
 
@@ -28,11 +28,11 @@ Progress to next level:
 
 Experience currently derived from Strava & Duolingo, more to come.
 
-## Random Pokemon: luvdisc
+## Random Pokemon: aggron
  
-![pokemon](https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;PokeAPI&#x2F;sprites&#x2F;master&#x2F;sprites&#x2F;pokemon&#x2F;370.png) 
+![pokemon](https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;PokeAPI&#x2F;sprites&#x2F;master&#x2F;sprites&#x2F;pokemon&#x2F;306.png) 
 
-Total Caught: 757
+Total Caught: 758
 
 ### Most Caught (5)
 
