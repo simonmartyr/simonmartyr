@@ -1,6 +1,6 @@
-const stravaapi = require("strava-v3");
-const fs = require("fs");
-const file = "strava.json";
+import fs from 'fs';
+import stravaapi from 'strava-v3';
+const file = 'strava.json';
 
 stravaapi.config({
   client_id: process.env.STRAVA_CLIENT_ID,
@@ -9,7 +9,7 @@ stravaapi.config({
 
 async function getLastRun() {
   const tokens = await stravaapi.oauth.refreshToken(
-    process.env.STRAVA_REFRESHTOKEN
+    process.env.STRAVA_REFRESHTOKEN,
   );
 
   var strava = new stravaapi.client(tokens.access_token);
@@ -30,7 +30,7 @@ function writeStrava(toWrite) {
   fs.writeFileSync(file, data);
 }
 
-async function refreshStrava() {
+export default async function refreshStrava() {
   let stravaData = readStrava();
   let latest = await getLastRun();
   let previouslySynced = stravaData.runs.find((x) => x.id == latest.id);
@@ -41,5 +41,3 @@ async function refreshStrava() {
   writeStrava(stravaData);
   return stravaData.totalDistance;
 }
-
-module.exports.refreshStrava = refreshStrava;

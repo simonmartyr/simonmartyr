@@ -1,13 +1,13 @@
 // index.js
-const Mustache = require('mustache');
-const fs = require('fs');
-const MUSTACHE_MAIN_DIR = './src/main.mustache';
-const randomEmoji = require('random-emoji');
-const stravaData = require('./Strava/stravaData');
-const simonsQuest = require('./Gamification/gamification');
-const duoLingo = require('./Duolingo/duolingo');
-const pokemon = require('./Pokemon/pokemon');
+import fs from 'fs';
+import Mustache from 'mustache';
+import randomEmoji from 'random-emoji';
+import refreshStrava from './Strava/stravaData.js';
+import SimonsQuest from './Gamification/gamification.js';
+import getDuolingoXp from './Duolingo/duolingo.js';
+import pokemon from './Pokemon/pokemon.js';
 
+const MUSTACHE_MAIN_DIR = './src/main.mustache';
 const creationDate = new Date('5 Oct, 2020 22:00');
 
 /**
@@ -43,14 +43,14 @@ async function generateReadMe() {
 }
 
 async function action() {
-  var pokemonData = await pokemon.refreshPokemon();
+  var pokemonData = await pokemon();
   DATA = { ...DATA, ...pokemonData };
-  DATA.runningDistance = await stravaData.refreshStrava();
-  DATA.duoLingoXp = await duoLingo.getDuolingoXp();
+  DATA.runningDistance = await refreshStrava();
+  DATA.duoLingoXp = await getDuolingoXp();
   let experience = Math.floor(
     DATA.runningDistance / 2 + DATA.duoLingoXp.totalXp / 10,
   );
-  let game = new simonsQuest({ currentXp: experience });
+  let game = new SimonsQuest({ currentXp: experience });
   DATA.currentLevel = game.getCurrentLevel();
   DATA.progress = game.progressToNextLevel();
   DATA.currentExperience = experience;

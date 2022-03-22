@@ -1,5 +1,6 @@
-const fs = require('fs');
-const fetch = require('node-fetch');
+import fs from 'fs';
+import fetch from 'node-fetch';
+
 const file = 'pokedex.json';
 const apiEndpoint = 'https://pokeapi.co/api/v2/pokemon/';
 
@@ -27,7 +28,7 @@ async function captureAPokemon(pokemon) {
     ? previouslyCaught.qt++
     : pokemon.caught.push({ name, qt: 1 });
   pokemon.caught.sort((a, b) => b.qt - a.qt);
-  top10 = pokemon.caught.slice(0, 5);
+  const top10 = pokemon.caught.slice(0, 5);
   let table = '';
   top10.forEach((element) => {
     table += `${element.name}|${element.qt}\n`;
@@ -41,11 +42,9 @@ async function captureAPokemon(pokemon) {
   };
 }
 
-async function refreshPokemon() {
+export default async function refreshPokemon() {
   let pokemonData = readPokemon();
   var result = await captureAPokemon(pokemonData);
   await writePokemon(pokemonData);
   return result;
 }
-
-module.exports.refreshPokemon = refreshPokemon;

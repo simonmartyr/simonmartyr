@@ -1,5 +1,5 @@
 //Honestly better than Castlevania II
-class SimonsQuest {
+export default class SimonsQuest {
   constructor({ currentLevel = 0, currentXp = 0 }) {
     this.setCurrentXp(currentLevel, currentXp);
   }
@@ -63,5 +63,3 @@ class SimonsQuest {
   getCurrentLevel = () => this.currentLevel;
   getCurrentXp = () => this.currentXp;
 }
-
-module.exports = SimonsQuest;

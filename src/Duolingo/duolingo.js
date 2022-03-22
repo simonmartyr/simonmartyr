@@ -1,12 +1,14 @@
-const Duolingo = require("duolingo-api");
-const credentials = {
-  id: process.env.DUOLINGO_ID,
-};
-let duolingo = new Duolingo(credentials);
+import Duolingo from 'duolingo-api';
 
-async function getDuolingoXp() {
-  const myFields = ["totalXp"];
-  return await duolingo.getDataByFields(myFields);
+export default async function getDuolingoXp() {
+  const client = duolingoClient();
+  const myFields = ['totalXp'];
+  return await client.getDataByFields(myFields);
 }
 
-module.exports.getDuolingoXp = getDuolingoXp;
+function duolingoClient() {
+  const credentials = {
+    id: process.env.DUOLINGO_ID,
+  };
+  return new Duolingo(credentials);
+}
