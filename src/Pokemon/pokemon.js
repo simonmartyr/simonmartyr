@@ -1,7 +1,7 @@
-const fs = require("fs");
-const fetch = require("node-fetch");
-const file = "pokedex.json";
-const apiEndpoint = "https://pokeapi.co/api/v2/pokemon/";
+const fs = require('fs');
+import fetch from 'node-fetch';
+const file = 'pokedex.json';
+const apiEndpoint = 'https://pokeapi.co/api/v2/pokemon/';
 
 function readPokemon() {
   let rawJson = fs.readFileSync(file);
@@ -28,14 +28,14 @@ async function captureAPokemon(pokemon) {
     : pokemon.caught.push({ name, qt: 1 });
   pokemon.caught.sort((a, b) => b.qt - a.qt);
   top10 = pokemon.caught.slice(0, 5);
-  let table = "";
+  let table = '';
   top10.forEach((element) => {
     table += `${element.name}|${element.qt}\n`;
   });
   return {
     pokemonImage: isShiny ? front_shiny : front_default,
     pokemonName: name,
-    isShiny: isShiny ? "Shiny" : "Non-Shiny",
+    isShiny: isShiny ? 'Shiny' : 'Non-Shiny',
     totalCaught: pokemon.caught.length,
     caughtList: table,
   };
