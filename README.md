@@ -1,11 +1,11 @@
-## Good afternoon ☀️
+## Good evening 🌙
 
 I'm Simon Martyr 🇬🇧, an Amsterdam 🇳🇱 based developer. 
 
 Working for [@Finaps](https://www.finaps.nl/) 
 
 
-## Social Stuff 👾
+## Social Stuff 🚟
 
 [![Twitter Badge](https://img.shields.io/badge/-@vintage_si-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/vintage_si)](https://twitter.com/vintage_si)
 
@@ -28,9 +28,9 @@ Progress to next level:
 
 Experience currently derived from Strava & Duolingo, more to come.
 
-## Random Pokemon: chingling
+## Random Pokemon: hoopa
  
-![pokemon](https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;PokeAPI&#x2F;sprites&#x2F;master&#x2F;sprites&#x2F;pokemon&#x2F;433.png) 
+![pokemon](https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;PokeAPI&#x2F;sprites&#x2F;master&#x2F;sprites&#x2F;pokemon&#x2F;720.png) 
 
 Total Caught: 804
 
@@ -39,8 +39,8 @@ Total Caught: 804
 Pokemon | Quantity |
 --- | --- |
 pawniard|19
+hoopa|17
 buzzwole|16
 bellsprout|16
-hoopa|16
 gothitelle|15
 
