@@ -28,9 +28,9 @@ Progress to next level:
 
 Experience currently derived from Strava & Duolingo, more to come.
 
-## Random Pokemon: ducklett
+## Random Pokemon: ledyba
  
-![pokemon](https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;PokeAPI&#x2F;sprites&#x2F;master&#x2F;sprites&#x2F;pokemon&#x2F;580.png) 
+![pokemon](https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;PokeAPI&#x2F;sprites&#x2F;master&#x2F;sprites&#x2F;pokemon&#x2F;165.png) 
 
 Total Caught: 807
 
