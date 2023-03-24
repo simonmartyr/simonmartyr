@@ -1,6 +1,6 @@
 import fetch from 'node-fetch';
-
-const duoLingoUrl = `http://www.duolingo.com/2017-06-30/users/${process.env.DUOLINGO_ID}?fields=totalXp`;
+const id = '123456';
+const duoLingoUrl = `http://www.duolingo.com/2017-06-30/users/${id}?fields=totalXp`;
 
 const fetchOptions = {
   headers: {

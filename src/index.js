@@ -47,9 +47,7 @@ async function action() {
   DATA = { ...DATA, ...pokemonData };
   DATA.runningDistance = await refreshStrava();
   DATA.duoLingoXp = await getDuolingoXp();
-  let experience = Math.floor(
-    DATA.runningDistance / 2 + DATA.duoLingoXp.totalXp / 10,
-  );
+  let experience = Math.floor(DATA.runningDistance / 2 + DATA.duoLingoXp / 10);
   let game = new SimonsQuest({ currentXp: experience });
   DATA.currentLevel = game.getCurrentLevel();
   DATA.progress = game.progressToNextLevel();
