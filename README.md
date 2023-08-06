@@ -28,9 +28,9 @@ Progress to next level:
 
 Experience currently derived from Strava & Duolingo, more to come.
 
-## Random Pokemon: servine
+## Random Pokemon: purrloin
  
-![pokemon](https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;PokeAPI&#x2F;sprites&#x2F;master&#x2F;sprites&#x2F;pokemon&#x2F;496.png) 
+![pokemon](https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;PokeAPI&#x2F;sprites&#x2F;master&#x2F;sprites&#x2F;pokemon&#x2F;509.png) 
 
 Total Caught: 807
 
