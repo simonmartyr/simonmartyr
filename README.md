@@ -5,7 +5,7 @@ I'm Simon Martyr 🇬🇧, an Amsterdam 🇳🇱 based developer.
 Working for [@Finaps](https://www.finaps.nl/) 
 
 
-## Social Stuff 🆕
+## Social Stuff 🌛
 
 [![Twitter Badge](https://img.shields.io/badge/-@vintage_si-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/vintage_si)](https://twitter.com/vintage_si)
 
