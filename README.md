@@ -21,7 +21,7 @@ Exploring how I can "gamify my life" by taking various hobbies & interests and c
 
 Current Level: **55**
 
-Current Experience = **133131**
+Current Experience = **133132**
 
 Progress to next level:
 
@@ -30,9 +30,9 @@ Progress to next level:
 
 Experience currently derived from Strava & Duolingo, more to come.
 
-## Random Pokemon: dwebble
+## Random Pokemon: spheal
  
-![pokemon](https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;PokeAPI&#x2F;sprites&#x2F;master&#x2F;sprites&#x2F;pokemon&#x2F;557.png) 
+![pokemon](https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;PokeAPI&#x2F;sprites&#x2F;master&#x2F;sprites&#x2F;pokemon&#x2F;363.png) 
 
 Total Caught: 807
 
