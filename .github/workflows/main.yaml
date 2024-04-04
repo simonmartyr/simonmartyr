@@ -13,25 +13,11 @@ jobs:
 
     steps:
       - name: Checkout current repository to Master branch
-        uses: actions/checkout@v1
-      - name: Setup NodeJs 14.x
-        uses: actions/setup-node@v1
-        with:
-          node-version: "14.x"
-      - name: Cache dependencies and build outputs to improve workflow execution time.
-        uses: actions/cache@v1
-        with:
-          path: node_modules
-          key: ${{ runner.os }}-js-${{ hashFiles('package-lock.json') }}
-      - name: Install dependencies
-        run: npm install
+        uses: actions/checkout@v4
+      - name: Setup Go
+        uses: actions/setup-go@v5
       - name: Generate README file
-        env:
-          STRAVA_CLIENT_ID: ${{ secrets.STRAVA_CLIENT_ID }}
-          STRAVA_REFRESHTOKEN: ${{ secrets.STRAVA_REFRESHTOKEN }}
-          STRAVA_SECRET: ${{ secrets.STRAVA_SECRET }}
-          DUOLINGO_ID: ${{secrets.DUOLINGO_ID}}
-        run: node src/index.js
+        run: go run .
       - name: Commit and Push new README.md to the repository
         uses: mikeal/publish-to-github-action@master
         env:
