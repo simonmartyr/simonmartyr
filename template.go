@@ -62,7 +62,7 @@ func (readme *ReadmeContent) CreateReadme() error {
 	if exeErr != nil {
 		return exeErr
 	}
-	writeErr := os.WriteFile("readme.md", output.Bytes(), 0644)
+	writeErr := os.WriteFile("README.md", output.Bytes(), 0644)
 	if writeErr != nil {
 		return writeErr
 	}

@@ -1,48 +1,29 @@
-## Good afternoon ☀️
 
-I'm Simon Martyr 🇬🇧, an Amsterdam 🇳🇱 based developer. 
+## Good evening 🌙
+
+I'm Simon Martyr. 
+
+An Amsterdam 🇳🇱 based web developer who primary focuses on backend technologies.
+
+With an interest for American football, podcasts and mechanical keyboards.
 
 Working for [@Finaps](https://www.finaps.nl/) 
 
+## Social Stuff 🎖
 
-## Social Stuff 📹
+[![Mastodon Follow](https://img.shields.io/mastodon/follow/109711119936675780?domain=https%3A%2F%2Ffosstodon.org&style=flat-square&logo=mastodon&logoColor=white&label=Mastodon&labelColor=purple&color=purple)
+](https://fosstodon.org/@martyr)
+[![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/SiMartyr?style=flat-square&logo=twitter&label=twitter&logoColor=white&labelColor=1ca0f1&color=1ca0f1)
+](https://twitter.com/simartyr)
 
-[![Twitter Badge](https://img.shields.io/badge/-@vintage_si-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/vintage_si)](https://twitter.com/vintage_si)
-
-<a rel="me" href="https://fosstodon.org/@martyr">Mastodon</a>
+![pokemon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/365.png)
 
 ## Stats 🤖
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=simonmartyr&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+[![Git Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=simonmartyr&layout=compact&theme=nightowl)](https://github.com/anuraghazra/github-readme-stats)
 
-## Simon's Quest 🚧 (wip)
+## Latest Article 👨🏻‍💻
 
-Exploring how I can "gamify my life" by taking various hobbies & interests and converting various data points into _experience_.
-
-Current Level: **56**
-
-Current Experience = **146792**
-
-Progress to next level:
-
-
-![Progress](https://progress-bar.dev/82/?width=250)
-
-Experience currently derived from Strava & Duolingo, more to come.
-
-## Random Pokemon: bastiodon
- 
-![pokemon](https:&#x2F;&#x2F;raw.githubusercontent.com&#x2F;PokeAPI&#x2F;sprites&#x2F;master&#x2F;sprites&#x2F;pokemon&#x2F;411.png) 
-
-Total Caught: 807
-
-### Most Caught (5)
-
-Pokemon | Quantity |
---- | --- |
-trumbeak|33
-masquerain|31
-dwebble|31
-mudkip|30
-lunatone|29
+### Too Good To Go Go
+[![article](https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fc3frgc9mjaz2lqculxp4.png)](https://www.smartyr.me/blog/too-good-to-go-go/)
 
