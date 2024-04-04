@@ -1,11 +1,9 @@
-name: README build
+name: README pull-request
 
 on:
-  push:
+  pull_request:
     branches:
       - master
-  schedule:
-    - cron: "0 */2 * * *"
 
 jobs:
   build:
@@ -18,7 +16,3 @@ jobs:
         uses: actions/setup-go@v5
       - name: Generate README file
         run: go run .
-      - name: Commit and Push new README.md to the repository
-        uses: mikeal/publish-to-github-action@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
