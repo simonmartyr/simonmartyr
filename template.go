@@ -76,7 +76,7 @@ func (readme *ReadmeContent) CreateReadme() error {
 }
 
 const markdownTemplate = `
-<div style="text-align: center;"> <h1>{{.Welcome}}</h1> </div>
+<h1 align="center">{{.Welcome}}</h1>
 
 ___
 
@@ -88,9 +88,6 @@ With an interest for American football, podcasts and mechanical keyboards.
 
 Working for [@Finaps](https://www.finaps.nl/) 
 
-___
-
-
 ## Social Stuff {{.Emoji}}
 
 [![Mastodon Follow](https://img.shields.io/mastodon/follow/109711119936675780?domain=https%3A%2F%2Ffosstodon.org&style=flat-square&logo=mastodon&logoColor=white&label=Mastodon&labelColor=purple&color=purple)
@@ -99,9 +96,6 @@ ___
 ](https://twitter.com/simartyr)
 
 ![pokemon]({{.Pokemon.Image}})
-
-___
-
 
 ## Stats 🤖
 
