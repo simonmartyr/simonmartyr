@@ -78,8 +78,6 @@ func (readme *ReadmeContent) CreateReadme() error {
 const markdownTemplate = `
 <h1 align="center">{{.Welcome}}</h1>
 
-___
-
 I'm Simon Martyr. 
 
 An Amsterdam 🇳🇱 based web developer who primary focuses on backend technologies.
