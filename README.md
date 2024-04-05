@@ -1,5 +1,5 @@
 
-<div style="text-align: center;"> <h1>Good Morning 🌅</h1> </div>
+<h1 align="center">Good Morning 🌅</h1>
 
 ___
 
@@ -11,20 +11,14 @@ With an interest for American football, podcasts and mechanical keyboards.
 
 Working for [@Finaps](https://www.finaps.nl/) 
 
-___
-
-
-## Social Stuff 🚪
+## Social Stuff 🎚
 
 [![Mastodon Follow](https://img.shields.io/mastodon/follow/109711119936675780?domain=https%3A%2F%2Ffosstodon.org&style=flat-square&logo=mastodon&logoColor=white&label=Mastodon&labelColor=purple&color=purple)
 ](https://fosstodon.org/@martyr)
 [![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/SiMartyr?style=flat-square&logo=twitter&label=twitter&logoColor=white&labelColor=1ca0f1&color=1ca0f1)
 ](https://twitter.com/simartyr)
 
-![pokemon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/346.png)
-
-___
-
+![pokemon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/763.png)
 
 ## Stats 🤖
 
@@ -38,4 +32,4 @@ ___
 
 --- 
 
-<p align="center">This profile is updated <b>every 4 hours</b></br>Last refresh: Friday, 5 April, 07:49 UTC<br />
+<p align="center">This profile is updated <b>every 4 hours</b></br>Last refresh: Friday, 5 April, 07:51 UTC<br />
