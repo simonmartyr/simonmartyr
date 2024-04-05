@@ -1,5 +1,7 @@
 
-## Good morning 🌅
+<div style="text-align: center;"> <h1>Good Morning 🌅</h1> </div>
+
+___
 
 I'm Simon Martyr. 
 
@@ -9,14 +11,20 @@ With an interest for American football, podcasts and mechanical keyboards.
 
 Working for [@Finaps](https://www.finaps.nl/) 
 
-## Social Stuff 🔈
+___
+
+
+## Social Stuff 🚪
 
 [![Mastodon Follow](https://img.shields.io/mastodon/follow/109711119936675780?domain=https%3A%2F%2Ffosstodon.org&style=flat-square&logo=mastodon&logoColor=white&label=Mastodon&labelColor=purple&color=purple)
 ](https://fosstodon.org/@martyr)
 [![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/SiMartyr?style=flat-square&logo=twitter&label=twitter&logoColor=white&labelColor=1ca0f1&color=1ca0f1)
 ](https://twitter.com/simartyr)
 
-![pokemon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/579.png)
+![pokemon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/346.png)
+
+___
+
 
 ## Stats 🤖
 
@@ -27,3 +35,7 @@ Working for [@Finaps](https://www.finaps.nl/)
 ### Too Good To Go Go
 [![article](https://media.dev.to/cdn-cgi/image/width=1000,height=500,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fc3frgc9mjaz2lqculxp4.png)](https://www.smartyr.me/blog/too-good-to-go-go/)
 
+
+--- 
+
+<p align="center">This profile is updated <b>every 4 hours</b></br>Last refresh: Friday, 5 April, 07:49 UTC<br />
