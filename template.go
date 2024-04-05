@@ -12,13 +12,19 @@ import (
 )
 
 type ReadmeContent struct {
-	http     *http.Client
-	Pokemon  *Pokemon
-	Articles *[]Article
+	http        *http.Client
+	Pokemon     *Pokemon
+	Articles    *[]Article
+	RefreshTime string
 }
 
+const timeLayout = "Monday, 2 January, 15:04 MST"
+
 func New(client *http.Client) *ReadmeContent {
-	return &ReadmeContent{http: client}
+	return &ReadmeContent{
+		http:        client,
+		RefreshTime: time.Now().Format(timeLayout),
+	}
 }
 
 func (readme *ReadmeContent) Welcome() string {
@@ -26,11 +32,11 @@ func (readme *ReadmeContent) Welcome() string {
 	now := time.Now().In(loc)
 	switch {
 	case now.Hour() < 12:
-		return "Good morning 🌅"
+		return "Good Morning 🌅"
 	case now.Hour() < 17:
-		return "Good afternoon ☀️"
+		return "Good Afternoon ☀️"
 	default:
-		return "Good evening 🌙"
+		return "Good Evening 🌙"
 	}
 }
 
@@ -70,7 +76,9 @@ func (readme *ReadmeContent) CreateReadme() error {
 }
 
 const markdownTemplate = `
-## {{.Welcome}}
+<div style="text-align: center;"> <h1>{{.Welcome}}</h1> </div>
+
+___
 
 I'm Simon Martyr. 
 
@@ -79,6 +87,9 @@ An Amsterdam 🇳🇱 based web developer who primary focuses on backend technol
 With an interest for American football, podcasts and mechanical keyboards.
 
 Working for [@Finaps](https://www.finaps.nl/) 
+
+___
+
 
 ## Social Stuff {{.Emoji}}
 
@@ -89,6 +100,9 @@ Working for [@Finaps](https://www.finaps.nl/)
 
 ![pokemon]({{.Pokemon.Image}})
 
+___
+
+
 ## Stats 🤖
 
 [![Git Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=simonmartyr&layout=compact&theme=nightowl)](https://github.com/anuraghazra/github-readme-stats)
@@ -98,4 +112,8 @@ Working for [@Finaps](https://www.finaps.nl/)
 ### {{ .Title }}
 [![article]({{ .Image }})]({{.CanonicalUrl}})
 {{end}}
+
+--- 
+
+<p align="center">This profile is updated <b>every 4 hours</b></br>Last refresh: {{ .RefreshTime }}<br />
 `
