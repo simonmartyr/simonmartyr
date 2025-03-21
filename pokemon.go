@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"math/rand"
+	"net/http"
 )
 
 type PokemonResponse struct {
@@ -27,7 +28,12 @@ const defaultPokemon = "Squirtle"
 const defaultPokemonImage = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png"
 
 func (readme *ReadmeContent) GeneratePokemon() *Pokemon {
-	res, getErr := readme.http.Get(fmt.Sprintf(pokeApiEndpoint, randomPokemonId()))
+	req, reqErr := http.NewRequest(http.MethodGet, fmt.Sprintf(pokeApiEndpoint, randomPokemonId()), nil)
+	if reqErr != nil {
+		panic(reqErr)
+	}
+	req.Header.Set("User-Agent", "readme")
+	res, getErr := readme.http.Do(req)
 	if getErr != nil {
 		panic(getErr)
 	}
