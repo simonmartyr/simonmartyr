@@ -16,6 +16,8 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Go
         uses: actions/setup-go@v5
+        with:
+          go-version: '^1.22.3'
       - name: Generate README file
         run: go run .
       - name: Commit and Push new README.md to the repository

@@ -23,11 +23,20 @@ type Pokemon struct {
 }
 
 const pokeApiEndpoint = "https://pokeapi.co/api/v2/pokemon/%d"
+const defaultPokemon = "Squirtle"
+const defaultPokemonImage = "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/7.png"
 
 func (readme *ReadmeContent) GeneratePokemon() *Pokemon {
 	res, getErr := readme.http.Get(fmt.Sprintf(pokeApiEndpoint, randomPokemonId()))
 	if getErr != nil {
 		panic(getErr)
+	}
+	if res.StatusCode < 200 || res.StatusCode >= 300 {
+		return &Pokemon{
+			Name:     defaultPokemon,
+			Image:    defaultPokemonImage,
+			IsShinny: false,
+		}
 	}
 	defer res.Body.Close()
 	var jsonResponse PokemonResponse
