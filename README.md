@@ -16,7 +16,7 @@ Working for [@Finaps](https://www.finaps.nl/)
 [![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/SiMartyr?style=flat-square&logo=twitter&label=twitter&logoColor=white&labelColor=1ca0f1&color=1ca0f1)
 ](https://twitter.com/simartyr)
 
-![pokemon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/856.png)
+![pokemon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/206.png)
 
 ## Stats 🤖
 
@@ -30,4 +30,4 @@ Working for [@Finaps](https://www.finaps.nl/)
 
 --- 
 
-<p align="center">This profile is updated <b>every 4 hours</b></br>Last refresh: Saturday, 16 August, 00:46 UTC<br />
+<p align="center">This profile is updated <b>every 4 hours</b></br>Last refresh: Saturday, 16 August, 03:07 UTC<br />
