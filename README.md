@@ -1,5 +1,5 @@
 
-<h1 align="center">Good Evening 🌙</h1>
+<h1 align="center">Good Morning 🌅</h1>
 
 I'm Simon Martyr. 
 
@@ -9,14 +9,14 @@ With an interest for American football, podcasts and mechanical keyboards.
 
 Working for [@Finaps](https://www.finaps.nl/) 
 
-## Social Stuff 😐
+## Social Stuff 🚎
 
 [![Mastodon Follow](https://img.shields.io/mastodon/follow/109711119936675780?domain=https%3A%2F%2Ffosstodon.org&style=flat-square&logo=mastodon&logoColor=white&label=Mastodon&labelColor=purple&color=purple)
 ](https://fosstodon.org/@martyr)
 [![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/SiMartyr?style=flat-square&logo=twitter&label=twitter&logoColor=white&labelColor=1ca0f1&color=1ca0f1)
 ](https://twitter.com/simartyr)
 
-![pokemon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/174.png)
+![pokemon](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/44.png)
 
 ## Stats 🤖
 
@@ -30,4 +30,4 @@ Working for [@Finaps](https://www.finaps.nl/)
 
 --- 
 
-<p align="center">This profile is updated <b>every 4 hours</b></br>Last refresh: Monday, 16 February, 22:15 UTC<br />
+<p align="center">This profile is updated <b>every 4 hours</b></br>Last refresh: Tuesday, 17 February, 01:04 UTC<br />
